@@ -2,8 +2,14 @@
 
 My config
 
+## Colour scheme
 
-Colour scheme:
-```
+```lua
 colorscheme catppuccin-frappe
+```
+
+## Copilot
+
+```lua
+Copilot
 ```
