@@ -4,10 +4,6 @@ return {
 
     opts = {},
 
-    default_file_explorer = false,
-
-    skip_confirm_for_simple_edits = true,
-
     dependencies = { { "echasnovski/mini.icons", opts = {} } },
 
     keys = {
@@ -15,7 +11,10 @@ return {
     },
 
     config = function()
-      require("oil").setup({})
+      require("oil").setup({
+        -- Use LazyVim's default file explorer.
+        default_file_explorer = false,
+      })
 
       -- Add a keymap for writing and closing the buffer in Oil
       vim.api.nvim_create_autocmd("FileType", {
