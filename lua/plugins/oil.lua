@@ -20,7 +20,7 @@ return {
       vim.api.nvim_create_autocmd("FileType", {
         pattern = "oil",
         callback = function()
-          vim.keymap.set("n", "<ESC>", function()
+          vim.keymap.set("n", "<leader>o", function()
             require("oil").save(nil, function()
               require("oil").close()
             end)
