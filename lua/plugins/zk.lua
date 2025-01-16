@@ -4,7 +4,7 @@ return {
   keys = {
     -- New note in same dir as current buffer.
     {
-      "<leader>fz",
+      "<leader>Z",
       "<Cmd>ZkNew { dir = vim.fn.expand('%:p:h'), title = vim.fn.input('Title: ') }<CR>",
       desc = "New note",
     },
