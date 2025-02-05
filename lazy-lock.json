@@ -14,8 +14,7 @@
   "dial.nvim": { "branch": "master", "commit": "34bbd9c387c358190e61ce71017faad3dffa7a74" },
   "flash.nvim": { "branch": "main", "commit": "f899265876ecdcf7352dbc9f0adf87068cedefbb" },
   "friendly-snippets": { "branch": "main", "commit": "efff286dd74c22f731cdec26a70b46e5b203c619" },
-  "fzf-lua": { "branch": "main", "commit": "394ddb2b80c58731c09b5775ca5d05d578b1de3d" },
-  "gitsigns.nvim": { "branch": "main", "commit": "0883d0f67c1b728713deeddfcec4aabf71410801" },
+  "gitsigns.nvim": { "branch": "main", "commit": "9772ce68a9a6d156f3f2166bfd0a17a09ab37eba" },
   "go-up.nvim": { "branch": "main", "commit": "ad20c3713a16a3ce528be11408c253b15a3fd958" },
   "grug-far.nvim": { "branch": "main", "commit": "3a8690461afac34c0e5bacb0f7b4bc3066aab665" },
   "lazy.nvim": { "branch": "main", "commit": "7e6c863bc7563efbdd757a310d17ebc95166cef3" },
@@ -44,7 +43,7 @@
   "plenary.nvim": { "branch": "master", "commit": "3707cdb1e43f5cea73afb6037e6494e7ce847a66" },
   "render-markdown.nvim": { "branch": "main", "commit": "2a9e0ab6043bfb4996ce6a6a35594ab357e5d299" },
   "rustaceanvim": { "branch": "master", "commit": "f03035fa03ccb36cd26d0792c946fbacba1d1a39" },
-  "snacks.nvim": { "branch": "main", "commit": "09349ecd44040666db9d4835994a378a9ff53e8c" },
+  "snacks.nvim": { "branch": "main", "commit": "c61114fb32910863a543a4a7a1f63e9915983d26" },
   "todo-comments.nvim": { "branch": "main", "commit": "304a8d204ee787d2544d8bc23cd38d2f929e7cc5" },
   "tokyonight.nvim": { "branch": "main", "commit": "dca4adba7dc5f09302a00b0e76078d54d82d2658" },
   "trouble.nvim": { "branch": "main", "commit": "6f380b8826fb819c752c8fd7daaee9ef96d4c689" },
@@ -54,5 +53,5 @@
   "vimtex": { "branch": "master", "commit": "dfaf26c2cafddf61963ebeff28437352002691ac" },
   "which-key.nvim": { "branch": "main", "commit": "0e76a87ac51772569aec678dc74baa8e2a86100c" },
   "yanky.nvim": { "branch": "main", "commit": "d2696b30e389dced94d5acab728f524a25f308d2" },
-  "zk-nvim": { "branch": "main", "commit": "10089c398df925b8db51fd659501d2cb044003b9" }
+  "zk-nvim": { "branch": "snacks-picker", "commit": "c27b5e5b8176938e010ed98df847734e5c2ace54" }
 }
