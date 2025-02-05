@@ -7,17 +7,17 @@ return {
         -- Inspired by the vertical layout
         layout = {
           backdrop = false,
-          width = 0.8,
-          height = 0.8,
+          width = 0.90,
+          height = 0.90,
           min_width = 80,
           min_height = 30,
           box = "vertical",
           border = "rounded",
           title = "{title} {live} {flags}",
           title_pos = "center",
-          { win = "input", height = 1, border = "bottom" },
-          { win = "list", border = "none" },
-          { win = "preview", title = "{preview}", height = 0.6, border = "top" },
+          { win = "preview", title = "{preview}", height = 0.5, border = "bottom" },
+          { win = "input", height = 1, border = "none" },
+          { win = "list", border = "top" },
         },
       },
       matcher = {
