@@ -1,5 +1,6 @@
 return {
-  "zk-org/zk-nvim",
+  "pkazmier/zk-nvim",
+  branch = "snacks-picker",
 
   keys = {
     -- New note in same dir as current buffer.
@@ -18,7 +19,7 @@ return {
 
   config = function()
     require("zk").setup({
-      picker = "fzf_lua",
+      picker = "snacks_picker",
     })
   end,
 }
