@@ -4,20 +4,25 @@ return {
     picker = {
       layout = {
         cycle = true,
+        reverse = true,
         -- Inspired by the vertical layout
         layout = {
           backdrop = false,
-          width = 0.90,
-          height = 0.90,
+          width = 0,
+          height = 0,
           min_width = 80,
           min_height = 30,
+          border = "none",
           box = "vertical",
-          border = "rounded",
-          title = "{title} {live} {flags}",
-          title_pos = "center",
-          { win = "preview", title = "{preview}", height = 0.5, border = "bottom" },
-          { win = "input", height = 1, border = "none" },
-          { win = "list", border = "top" },
+          { win = "list", border = "rounded" },
+          {
+            win = "input",
+            height = 1,
+            border = "rounded",
+            title = "{title} {live} {flags}",
+            title_pos = "center",
+          },
+          { win = "preview", height = 0.6, border = "none" },
         },
       },
       matcher = {
