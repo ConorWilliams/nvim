@@ -1,9 +1,6 @@
 return {
   "folke/snacks.nvim",
   opts = {
-    explorer = {
-      replace_netrw = true,
-    },
     picker = {
       layout = {
         cycle = true,
@@ -44,7 +41,7 @@ return {
 
       sources = {
         explorer = {
-          -- Fullscreen needs auto close
+          -- Fullscreen explorer needs auto close
           auto_close = true,
 
           layout = {
