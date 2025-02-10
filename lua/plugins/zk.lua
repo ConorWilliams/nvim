@@ -1,6 +1,5 @@
 return {
-  "pkazmier/zk-nvim",
-  branch = "snacks-picker",
+  "zk-org/zk-nvim",
 
   keys = {
     -- New note in same dir as current buffer.
