@@ -1,6 +1,9 @@
 return {
   "folke/snacks.nvim",
   opts = {
+    explorer = {
+      replace_netrw = true,
+    },
     picker = {
       layout = {
         cycle = true,
@@ -25,6 +28,7 @@ return {
           { win = "preview", height = 0.6, border = "none" },
         },
       },
+
       matcher = {
         frecency = true, -- frecency bonus
       },
@@ -34,6 +38,15 @@ return {
         input = {
           keys = {
             ["<Esc>"] = { "close", mode = { "n", "i" } },
+          },
+        },
+      },
+
+      sources = {
+        explorer = {
+          layout = {
+            preview = true,
+            reverse = false,
           },
         },
       },
