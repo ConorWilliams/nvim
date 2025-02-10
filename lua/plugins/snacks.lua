@@ -44,6 +44,9 @@ return {
 
       sources = {
         explorer = {
+          -- Fullscreen needs auto close
+          auto_close = true,
+
           layout = {
             preview = true,
             reverse = false,
