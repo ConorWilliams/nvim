@@ -28,3 +28,5 @@ discretization
 awaitable
 Equilibre
 onnx
+Levenshtein
+rebase
